@@ -112,6 +112,260 @@
           working across both containerized (Podman) and bare-metal VM environments on RHEL 10.
         </p>
         <ul class="loglist">
+          <li><span class="logmeta"><span class="logtime">10:41:02</span><span class="tag">OK</span></span><span class="logtext">Configured Nginx as a reverse proxy for Node.js applications, managing process lifecycle with PM2 and supervisord for high-availability service management.</span></li>
+          <li><span class="logmeta"><span class="logtime">10:42:17</span><span class="tag">OK</span></span><span class="logtext">Performed PHP-FPM performance tuning with Apache, optimizing worker pool configurations for improved request handling.</span></li>
+          <li><span class="logmeta"><span class="logtime">10:44:39</span><span class="tag">OK</span></span><span class="logtext">Configured NTP and NFS between RHEL VMs.</span></li>
+          <li><span class="logmeta"><span class="logtime">10:47:05</span><span class="tag">OK</span></span><span class="logtext">Implemented Nginx + PHP-FPM integration via Unix sockets, improving inter-process communication efficiency over default TCP configurations.</span></li>
+          <li><span class="logmeta"><span class="logtime">10:50:23</span><span class="tag">OK</span></span><span class="logtext">Executed infrastructure labs across containerized and traditional VM-based deployments to build cross-environment operational versatility.</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== projects ===== -->
+  <section class="block reveal" id="projects">
+    <p class="cmdline"><span class="prompt">krish@portfolio</span><span class="colon">:~$</span> ls -la ~/projects/</p>
+    <div class="block__body">
+      <div class="filerow">
+        <span class="filerow__perm">drwxr-xr-x</span>
+        <span class="filerow__name">archive-guru<span class="dim">/</span></span>
+        <span class="badge badge--warn">● in progress</span>
+      </div>
+      <div class="projectcard">
+        <h3>Archive GURU</h3>
+        <p>
+          An installable Linux script providing a guided, terminal-based interface for archive
+          management — think <code>nmtui</code>, but for compression. Lets users create and manage
+          compressed archives using <code>zip</code>, <code>gzip</code>, and <code>bzip2</code> through
+          an interactive, menu-driven workflow.
+        </p>
+        <p class="dim">
+          Mental model of the finished product is locked in — full code and docs shipping to
+          GitHub shortly.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== skills ===== -->
+  <section class="block reveal" id="skills">
+    <p class="cmdline"><span class="prompt">krish@portfolio</span><span class="colon">:~$</span> cat skills.yaml</p>
+    <div class="block__body">
+      <div class="skillgrid" id="skillgrid">
+        <!-- injected by script.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== education ===== -->
+  <section class="block reveal" id="education">
+    <p class="cmdline"><span class="prompt">krish@portfolio</span><span class="colon">:~$</span> column -t education.csv</p>
+    <div class="block__body">
+      <div class="tablewrap">
+        <table>
+          <thead>
+            <tr><th>degree</th><th>institution</th><th>year</th><th>status</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>B.Sc. IT (Cyber Security)</td><td>Gujarat University</td><td>2026</td><td><span class="badge badge--ok">completed</span></td></tr>
+            <tr><td>Higher Secondary (Commerce)</td><td>Gujarat Board</td><td>2023</td><td><span class="badge badge--ok">completed</span></td></tr>
+            <tr><td>Senior Secondary</td><td>Gujarat Board</td><td>2021</td><td><span class="badge badge--ok">completed</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== certifications ===== -->
+  <section class="block reveal" id="certs">
+    <p class="cmdline"><span class="prompt">krish@portfolio</span><span class="colon">:~$</span> ./check-certs.sh --verbose</p>
+    <div class="block__body">
+      <div class="certgrid">
+        <div class="certcard">
+          <div class="certcard__top">
+            <span class="certcard__badge">EX200</span>
+            <span class="badge badge--ok">passed · 1st attempt</span>
+          </div>
+          <h3>RHCSA</h3>
+          <p class="dim">Red Hat &middot; Completed June 2026</p>
+          <div class="scorebar"><div class="scorebar__fill" style="width:100%"></div></div>
+          <p class="scoretext">300 / 300</p>
+        </div>
+        <div class="certcard">
+          <div class="certcard__top">
+            <span class="certcard__badge">CLF-C02</span>
+            <span class="badge badge--ok">passed · 1st attempt</span>
+          </div>
+          <h3>AWS Certified Cloud Practitioner</h3>
+          <p class="dim">Amazon Web Services &middot; Completed July 2026</p>
+          <div class="scorebar"><div class="scorebar__fill" style="width:88.6%"></div></div>
+          <p class="scoretext">798 / 1000</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== contact ===== -->
+  <section class="block reveal" id="contact">
+    <p class="cmdline"><span class="prompt">krish@portfolio</span><span class="colon">:~$</span> ./contact.sh</p>
+    <div class="block__body">
+      <p class="contact__lead">Open to Cloud Security Engineer roles &amp; conversations about Linux, AWS, and infra. Reach out:</p>
+      <div class="contactgrid">
+        <a class="contactcard" href="mailto:krishparik918@gmail.com">
+          <span class="contactcard__icon" aria-hidden="true">✉</span>
+          <span>
+            <span class="contactcard__label">email</span>
+            <span class="contactcard__value">krishparik918@gmail.com</span>
+          </span>
+        </a>
+        <a class="contactcard" href="tel:+916355696254">
+          <span class="contactcard__icon" aria-hidden="true">☎</span>
+          <span>
+            <span class="contactcard__label">phone</span>
+            <span class="contactcard__value">+91&nbsp;63556&nbsp;96254</span>
+          </span>
+        </a>
+        <a class="contactcard" href="https://www.linkedin.com/in/krish-parik-a375ab192/" target="_blank" rel="noopener">
+          <span class="contactcard__icon" aria-hidden="true">in</span>
+          <span>
+            <span class="contactcard__label">linkedin</span>
+            <span class="contactcard__value">/in/krish-parik</span>
+          </span>
+        </a>
+        <a class="contactcard" href="https://github.com/Kparik918" target="_blank" rel="noopener">
+          <span class="contactcard__icon" aria-hidden="true">⌥</span>
+          <span>
+            <span class="contactcard__label">github</span>
+            <span class="contactcard__value">/Kparik918</span>
+          </span>
+        </a>
+      </div>
+      <p class="contact__location">📍 Ahmedabad, Gujarat, India</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="sitefoot">
+  <p>krish@portfolio <span class="colon">:~$</span> echo "built with bash, jetbrains mono &amp; catppuccin mocha" <span class="cursor">▌</span></p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>krish@portfolio: ~$</title>
+<meta name="description" content="Krish Ashish Parik — Cloud Security Engineer in training. Linux (RHCSA), AWS Cloud Practitioner, systems administration.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===== fixed status bar / nav ===== -->
+<header class="statusbar">
+  <div class="statusbar__left">
+    <span class="dot dot--red"></span>
+    <span class="dot dot--yellow"></span>
+    <span class="dot dot--green"></span>
+    <span class="statusbar__title" id="typedPrompt"></span><span class="cursor">▌</span>
+  </div>
+  <nav class="statusbar__nav" id="siteNav">
+    <a href="#about" data-target="about">about</a>
+    <a href="#experience" data-target="experience">experience</a>
+    <a href="#projects" data-target="projects">projects</a>
+    <a href="#skills" data-target="skills">skills</a>
+    <a href="#education" data-target="education">education</a>
+    <a href="#certs" data-target="certs">certs</a>
+    <a href="#contact" data-target="contact">contact</a>
+  </nav>
+  <button class="navtoggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main>
+
+  <!-- ===== hero / neofetch card ===== -->
+  <section class="hero" id="top">
+    <div class="fetchcard">
+      <div class="fetchcard__art" aria-hidden="true">
+<pre>
+       .--.
+      |o_o |
+      |:_/ |
+     //   \ \
+    (|     | )
+   /'\_   _/`\
+   \___)=(___/
+</pre>
+      </div>
+      <div class="fetchcard__info">
+        <p class="fetchcard__name">krish<span class="accent">@</span>parik</p>
+        <div class="fetchcard__rule"></div>
+        <dl class="fetchlist">
+          <div><dt>OS</dt><dd>Human 21.0 LTS (b. 09 Dec 2005)</dd></div>
+          <div><dt>Host</dt><dd>Ahmedabad, Gujarat, IN</dd></div>
+          <div><dt>Title</dt><dd>Cloud Security Engineer <span class="dim">(in training)</span></dd></div>
+          <div><dt>Distro</dt><dd>RHEL 10 / Fedora KDE</dd></div>
+          <div><dt>Shell</dt><dd>bash, python3 (beginner)</dd></div>
+          <div><dt>Packages</dt><dd>RHCSA·300/300, AWS·CCP</dd></div>
+          <div><dt>Uptime</dt><dd>B.Sc. IT (Cyber Security) — Gujarat University, 2026</dd></div>
+          <div><dt>Status</dt><dd><span class="badge badge--ok">● interning @ Electromech CloudTech</span></dd></div>
+        </dl>
+        <div class="fetchcard__swatches" aria-hidden="true">
+          <span style="background:var(--red)"></span>
+          <span style="background:var(--peach)"></span>
+          <span style="background:var(--yellow)"></span>
+          <span style="background:var(--green)"></span>
+          <span style="background:var(--teal)"></span>
+          <span style="background:var(--blue)"></span>
+          <span style="background:var(--mauve)"></span>
+          <span style="background:var(--pink)"></span>
+        </div>
+      </div>
+    </div>
+    <a class="scrollcue" href="#about">scroll <span>↓</span></a>
+  </section>
+
+  <!-- ===== about ===== -->
+  <section class="block reveal" id="about">
+    <p class="cmdline"><span class="prompt">krish@portfolio</span><span class="colon">:~$</span> cat about.md</p>
+    <div class="block__body">
+      <p>
+        B.Sc. IT (Cyber Security) graduate and RHCSA-certified Linux administrator (300/300),
+        currently interning in enterprise IT infrastructure with hands-on experience in
+        Linux system administration, containerization (Podman), and web server configuration.
+      </p>
+      <p>
+        Pursuing the AWS Certified Cloud Practitioner certification to build cloud fundamentals
+        toward a target role of <span class="accent">Cloud Security Engineer</span>. Skilled in
+        translating hands-on lab work into documented, repeatable infrastructure solutions.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== experience ===== -->
+  <section class="block reveal" id="experience">
+    <p class="cmdline"><span class="prompt">krish@portfolio</span><span class="colon">:~$</span> systemctl status internship.service</p>
+    <div class="block__body">
+      <div class="unitcard">
+        <div class="unitcard__head">
+          <span class="badge badge--ok">● active (running)</span>
+          <div>
+            <h3>System Admin Intern — Electromech CloudTech Pvt. Ltd.</h3>
+            <p class="dim">June 2026 – Present (Ongoing)</p>
+          </div>
+        </div>
+        <p class="unitcard__desc">
+          Hands-on internship covering enterprise Linux administration and web infrastructure,
+          working across both containerized (Podman) and bare-metal VM environments on RHEL 10.
+        </p>
+        <ul class="loglist">
           <li><span class="tag">OK</span> Configured Nginx as a reverse proxy for Node.js applications, managing process lifecycle with PM2 and supervisord for high-availability service management.</li>
           <li><span class="tag">OK</span> Performed PHP-FPM performance tuning with Apache, optimizing worker pool configurations for improved request handling.</li>
           <li><span class="tag">OK</span> Configured NTP and NFS between RHEL VMs.</li>
